@@ -100,3 +100,59 @@ body {
   cursor: pointer;
   color: white;
 }
+
+@media (max-width: 480px) {
+
+  body {
+    padding: 20px;
+    height: auto;
+    align-items: flex-start;
+  }
+
+  .todo-container {
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .todo-title {
+    font-size: 1.5rem;
+  }
+
+  .input-section {
+    flex-direction: column;
+  }
+
+  .todo-input {
+    width: 100%;
+  }
+
+  .add-btn {
+    width: 100%;
+  }
+
+  .task-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .btn-group {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+
+  .todo-container {
+    width: 90%;
+  }
+
+  .todo-title {
+    font-size: 1.8rem;
+  }
+
+}
